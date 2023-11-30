@@ -49,14 +49,30 @@
             color: orange;
         }
 
+        article {
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        form {
+            text-align: center;
+            color: black;
+        }
+
+        fieldset {
+            text-align: center;
+            border-color: black;
+            width: 100%;
+        }
+
         footer {
             background-color: orange;
             padding: 10px;
             text-align: center;
             color: rgb(1, 58, 1);
-            clear:both;
+            clear: both;
         }
-
     </style>
 </head>
 
@@ -78,6 +94,38 @@
         </nav>
 
     </div>
+
+    <article>
+
+        <h1>Si quiere contactar con nosotros, rellene la siguiente tabla</h1>
+        <form>
+
+            <fieldset>
+                <legend style="text-align: center; font-size: 25px;">Formulario</legend>
+                <br>
+                <br>
+                <label for="name">Nombre: </label>
+                <input id="name" type="text" value="" required>
+                <br>
+                <br>
+                <label for="surname">Apellidos: </label>
+                <input id="surname" type="text" value="" required>
+                <br>
+                <br>
+                <label for="email">Correo electrónico:</label>
+                <input id="email" type="email" value="" required>
+                <br>
+                <br>
+                <label for="comment">Comentario: </label>
+                <input id="comment" type="text" value="" required>
+                <br>
+                <br>
+                <input style="text-align: center;" type="submit">
+            </fieldset>
+
+        </form>
+
+    </article>
 
     <footer>
 
