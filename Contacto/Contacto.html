@@ -13,6 +13,7 @@
 
     <style>
         body {
+            position: absolute;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             margin: 0;
             background-color: rgb(48, 122, 48);
@@ -30,6 +31,7 @@
             padding: 15px;
             font-size: 40px;
             text-align: center;
+            width: 100%;
         }
 
         nav {
@@ -68,6 +70,7 @@
         }
 
         footer {
+            width: 100%;
             background-color: orange;
             padding: 10px;
             text-align: center;
@@ -105,20 +108,24 @@
                 <legend style="text-align: center; font-size: 25px;">Formulario</legend>
                 <br>
                 <br>
-                <label for="name">Nombre: </label>
-                <input id="name" type="text" value="" required>
-                <br>
-                <br>
-                <label for="surname">Apellidos: </label>
-                <input id="surname" type="text" value="" required>
-                <br>
-                <br>
-                <label for="email">Correo electrónico:</label>
-                <input id="email" type="email" value="" required>
-                <br>
-                <br>
-                <label for="comment">Comentario: </label>
-                <input id="comment" type="text" value="" required>
+
+                <div style="margin-left: 42.5%; text-align: left; width: 350px">
+                    <label for="name">Nombre: </label>
+                    <input style="margin-left: 80px"; id="name" type="text" value="" required>
+                    <br>
+                    <br>
+                    <label for="surname">Apellidos: </label>
+                    <input style="margin-left: 70px" id="surname" type="text" value="" required>
+                    <br>
+                    <br>
+                    <label for="email">Correo electrónico:</label>
+                    <input id="email" type="email" value="" required>
+                    <br>
+                    <br>
+                    <label for="comment">Comentario: </label>
+                    <input style="margin-left: 55px" id="comment" type="text" value="" required>
+                </div>
+
                 <br>
                 <br>
                 <input style="text-align: center;" type="submit">
