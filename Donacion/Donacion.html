@@ -8,8 +8,7 @@
     <link rel="icon" href="../favicon/websiteFavicon.ico" type="image/x-icon">
     <meta name="author" content="Tomás Robertson Morris">
     <meta name="description" content="Tienda online sobre pelirrojos">
-
-    <title>Ginger Pride Contacto</title>
+    <title>Ginger Pride Donación</title>
 
     <style>
         body {
@@ -54,19 +53,6 @@
 
         article {
             text-align: center;
-            padding: 20px;
-
-        }
-
-        form {
-            text-align: center;
-            color: black;
-        }
-
-        fieldset {
-            text-align: center;
-            border-color: black;
-            width: 100%;
         }
 
         footer {
@@ -78,6 +64,7 @@
             clear: both;
         }
     </style>
+
 </head>
 
 <body>
@@ -93,37 +80,38 @@
         <nav>
             <a href="../index.html">Índice</a>
             <a href="../Catalago/Catalogo.html">Catálogo</a>
+            <a href="../Contacto/Contacto.html">Contacto</a>
             <a href="../Ubicacion/Ubicacion.html">Ubicación</a>
-            <a href="../Donacion/Donacion.html">Donación</a>
         </nav>
 
     </div>
 
     <article>
 
-        <h1>Si quiere contactar con nosotros, rellene la siguiente tabla</h1>
+        <h1>Si quiere ayudar pero no quiere nada del catálogo, ingrese una donación aquí:</h1>
         <form>
 
             <fieldset>
-                <legend style="text-align: center; font-size: 25px;">Formulario</legend>
+                <legend style="text-align: center; font-size: 25px;">Donación</legend>
                 <br>
                 <br>
 
                 <div style="margin-left: 42.5%; text-align: left; width: 350px">
-                    <label for="name">Nombre: </label>
-                    <input style="margin-left: 80px"; id="name" type="text" value="" required>
-                    <br>
-                    <br>
-                    <label for="surname">Apellidos: </label>
-                    <input style="margin-left: 70px" id="surname" type="text" value="" required>
-                    <br>
-                    <br>
-                    <label for="email">Correo electrónico:</label>
-                    <input id="email" type="email" value="" required>
+                    <label for="donation">Elije la cantidad para la donación:</label>
+                    <select style="margin-left: 80px" ; id="donation" name="donación" required>
+                        <br>
+                        <option value="5€">5€</option>
+                        <option value="10€">10€</option>
+                        <option value="15€">15€</option>
+                        <option value="20€">20€</option>
+                        <option value="25€">25€</option>
+                        <option value="30€">30€</option>
+                    </select>
                     <br>
                     <br>
                     <label for="comment">Comentario: </label>
-                    <input style="margin-left: 55px" id="comment" type="text" value="" required>
+                    <br>
+                    <textarea id="comment" type="textarea" rows="3" cols="32" value=""></textarea>
                 </div>
 
                 <br>
