@@ -1,8 +1,7 @@
 # tomas-izv.github.io
 
-<h1>Ginger Pride</h1>
+<h1>Barber Robertson</h1>
 
-<p>Esta página web quiere dar a saber un poco sobre la historia detrás de la minoría menos tenido en cuenta de la sociedad, los pelirrojos.</p>
+<p>Somos una barbería creada exclusivamente para el cuidado del hombre, en un ambiente calido y acogedor, pensando para tu comodidad. Somos grandes profesionales con más de 10 años de experiencia.</p>
 
-<p>También da información sobre eventos (pulsando sobre las fotos de los eventos hay más información) que se organizan todos los años para el orgullo pelirrojo.
-Y para su organización dependen del dinero de la venta de sus productos, con temática pelirroja, y también con ayudas donativas de la gente colaboradora.</p>
+<p>Queremos recuperar la esencia, ya casi olvidada, de las barbería clásicas, dandole un toque más moderno y actual, y combinando diseño y estilos</p>
