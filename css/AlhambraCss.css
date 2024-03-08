@@ -9,32 +9,49 @@ header {
     text-align: center;
     color: orange;
     float: none;
+    background-image: url('https://fotofrangonz.com/wp-content/uploads/2022/07/alhambra-granada-mirador-san-nicolas-francisco-gonzalez-solemnity-1-1536x401.jpg');
+    margin-top: 15px;
+    width: 1000px;
+    height: 370px;
+    margin-left: 7.5%;
+    margin-bottom: 20px;
 }
 
-h2{
+h2 {
     text-align: center;
     color: orange;
 }
 
-h3{
-    text-align: left;
-    color:rgb(49, 129, 49);
-}
-
-p{
+p {
     text-align: justify;
     color: white;
 }
 
-a {
+nav a {
     text-decoration: none;
     margin-right: 20px;
     font-size: 20px;
     color: white;
 }
 
-a:hover {
+nav a:hover {
     color: orange;
+}
+
+#key{
+    height: 100px;
+    width: 75px;
+}
+
+#hand{
+    height: 100px;
+    width: 75px;
+}
+
+#door{
+    height: 300px;
+    width: 300px;
+    margin-left: 50%;
 }
 
 .container {
@@ -50,6 +67,14 @@ a:hover {
     border-color: white;
     padding: 20px;
     margin-top: 20px;
+}
+
+.content a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.5em;
+    text-align: left;
+    color: rgb(49, 129, 49);
 }
 
 .gallery {
