@@ -27,7 +27,9 @@ p {
     color: white;
 }
 
-nav{
+nav {
+    width: 80%;
+    display: flex;
     margin-left: 10%;
 }
 
@@ -43,21 +45,28 @@ nav a:hover {
     font-size: 1.5em;
 }
 
-#key{
+nav img{
+    padding-left: 60%;
+    float: right;
+    width: 50px;
+    height:50px;
+}
+
+#key {
     height: 100px;
     width: 75px;
     float: right;
     margin: 2%;
 }
 
-#hand{
+#hand {
     height: 100px;
     width: 75px;
     float: right;
     margin: 2%;
 }
 
-#door{
+#door {
     height: 315px;
     width: 300px;
     float: left;
@@ -68,7 +77,6 @@ nav a:hover {
     width: 80%;
     margin: auto;
     padding: 20px;
-    background-image: url('images/Aimage1.jpg');
 }
 
 .content {
@@ -79,7 +87,7 @@ nav a:hover {
     margin-top: 20px;
 }
 
-.content a{
+.content a {
     text-decoration: none;
     margin-right: 20px;
     font-size: 1.5em;
@@ -111,7 +119,9 @@ label {
     color: white;
 }
 
-input[type="text"], input[type="email"], textarea {
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
@@ -134,7 +144,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color:rgb(51, 49, 49);
+    background-color: rgb(51, 49, 49);
 }
 
 footer {
@@ -142,16 +152,17 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    display: block;
 }
+
 
 footer a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
-    display:block;
+    display: flexbox;
 }
 
-footer a:hover{
+footer a:hover {
     color: orange;
 }
 
@@ -162,14 +173,15 @@ footer img {
 }
 
 table {
-    width: 65%;
+    width: 55%;
     border-collapse: collapse;
     margin-top: 20px;
     margin-bottom: 20px;
     float: left;
 }
 
-th, td {
+th,
+td {
     border: 1px solid white;
     padding: 8px;
     text-align: center;
