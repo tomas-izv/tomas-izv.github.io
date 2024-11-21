@@ -1,19 +1,27 @@
-# tomas-izv.github.io
+# Desarrollo de Aplicaciones Web en Servidor
 
-<h1>ALHAMBRA PALACE</h1>
+Repositorio dedicado a las tareas y proyectos desarrollados en la asignatura **Desarrollo de Aplicaciones Web en Servidor**. Este espacio contiene el código, documentación y recursos asociados a los ejercicios prácticos solicitados por el profesor.
 
-<p>Es una página web a mi estilo del monumento 'La Alhmambra'.</p>
+## Contenido del repositorio
 
-<p>En la cabecera he incluido una imagen de internet como fondo y el título de la página. En la sección de navegación está el menú de índices y el logo del Ayuntamiento de Granada.</p>
+1. **Tareas y proyectos**: Cada directorio representa una tarea o proyecto, con su respectivo código y archivos relacionados.
+2. **Estructura general**:
+    - `docs/`: Documentación adicional y referencias.
+    - `src/`: Código fuente de las aplicaciones.
+    - `tests/`: Pruebas relacionadas con las aplicaciones.
 
-<p>La página incluye una introducción 'Home' con un poco de historia. Que contiene imágenes y párrafos estructurizados, ordenados y con palabras/frases en negrita y/o cursiva.</p>
+## Tecnologías utilizadas
 
-<p>Un apartado de 'News' que contiene noticias "recientes" sobre la Alhambra, las cuales se pueden dar click dirigiéndose a otra página web ajena con información sobre dicha noticia.</p>
+Durante el desarrollo de estas aplicaciones, se emplearon las siguientes herramientas y tecnologías:
+- Lenguaje: **JavaScript/PHP/Node.js/etc.** (reemplaza con lo que corresponda).
+- Frameworks y librerías: (por ejemplo, **Express, Laravel, etc.**).
+- Bases de datos: **MySQL/MongoDB/etc.**.
+- Otras herramientas: **Git, Postman, Docker**, etc.
 
-<p>Una galería de fotos en 'Gallery', usando grid para insertar varias fotos relacionadas con la Alhambra.</p> 
+## Estructura de cada proyecto
 
-<p>Una zona de contacto en 'Contact' donde se introducen datos personales y se escriben dudas sobre el monumento en sí.</p>
+Cada tarea incluye:
+- Una descripción general del problema o requerimiento.
+- El código fuente organizado de manera modular.
+- Archivos de configuración necesarios.
 
-<p>Finalente el 'footer' que incluye el horario de apertura del monumento, las redes sociales de la página web y las privacy policy.</p>
-
-<p>He decidido hacer la página en inglés.</p>
